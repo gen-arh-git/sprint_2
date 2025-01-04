@@ -15,7 +15,8 @@ docker compose up -d
 ```
 
 Скрипт mongo-init.sh выполняет 
-**1 Инициализацию 
+
+**1 Инициализацию** 
  - configSrv
  - shard1-master
  - shard1-slave1
@@ -25,10 +26,10 @@ docker compose up -d
  - shard2-slave2
  - mongos_router
 
-**2 Заполение данных
+**2 Заполение данных**
  - 1000
 
-**3 Проверку данных
+**3 Проверку данных**
  - На shard1-master
  - На shard1-slave1
  - На shard1-slave2
